@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="player">
+    <h1>Music Player</h1>
+
+    <audio id="audio">
+        Your browser does not support the audio.
+    </audio>
+
+    <div class="song-info">
+        <p id="song-title">Select a song</p>
+    </div>
+
+    <div class="controls">
+        <button id="prev">Previous</button>
+        <button id="playPause">Play</button>
+        <button id="next">Next</button>
+    </div>
+
+    <ul id="track-list">
+    <li data-track="song11.mp3">Cherry Lady</li>
+    <li data-track="song22.mp3">Permission To Dance</li>
+    <li data-track="song33.mp3">Chanda Re</li>
+    </ul>
+   </div>
+   <script src="first.js"></script>
+</body>
+</html>

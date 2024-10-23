@@ -1,0 +1,38 @@
+body {
+font-family:' Arial', sans-serif;
+background-color: aquamarine;
+color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#song-title{
+    color:#000;
+}
+.music-player{
+text-align: center; 
+background: #3a474486; 
+padding: 20px;  
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0,0.3);
+}
+
+h1{
+    color:#000;
+}
+#track-list{
+    color:#000;
+}
+button{
+    background-color: blue;
+    border: navy;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    color:#fff;
+}
+button:hover {
+    background-color: #21a1f1;
+}
